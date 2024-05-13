@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T18:05:51 IST" name="Default suite" finished-at="2024-05-13T18:05:59 IST" duration-ms="7453">
+    <groups>
+    </groups>
+    <test started-at="2024-05-13T18:05:51 IST" name="Default test" finished-at="2024-05-13T18:05:59 IST" duration-ms="7453">
+      <class name="com.ShoppersStack.ApiTestScripts.ShoppersAddress_1">
+        <test-method is-config="true" signature="openConnection()[pri:0, instance:com.ShoppersStack.ApiTestScripts.ShoppersAddress_1@5bf0d49]" started-at="2024-05-13T18:05:50 IST" name="openConnection" finished-at="2024-05-13T18:05:51 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method signature="login()[pri:0, instance:com.ShoppersStack.ApiTestScripts.ShoppersAddress_1@5bf0d49]" started-at="2024-05-13T18:05:52 IST" name="login" finished-at="2024-05-13T18:05:57 IST" duration-ms="5710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addNewAddress()[pri:0, instance:com.ShoppersStack.ApiTestScripts.ShoppersAddress_1@5bf0d49]" started-at="2024-05-13T18:05:57 IST" name="addNewAddress" finished-at="2024-05-13T18:05:59 IST" depends-on-methods="com.ShoppersStack.ApiTestScripts.ShoppersAddress_1.login" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddress -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:com.ShoppersStack.ApiTestScripts.ShoppersAddress_1@5bf0d49]" started-at="2024-05-13T18:05:59 IST" name="closeConnection" finished-at="2024-05-13T18:05:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- com.ShoppersStack.ApiTestScripts.ShoppersAddress_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
